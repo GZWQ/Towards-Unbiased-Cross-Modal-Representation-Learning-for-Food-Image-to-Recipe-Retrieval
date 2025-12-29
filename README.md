@@ -57,4 +57,6 @@ To evaluate the model, add ```--evaluate``` to the above command.
 
 
 
+## Acknowledgement
+
 Thanks the greate implementation of [query2labels](https://github.com/SlongLiu/query2labels) and [HT](https://github.com/amzn/image-to-recipe-transformers), where I inspired my implementation.
