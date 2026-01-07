@@ -11,7 +11,7 @@ The data files are **train.pkl, val.pkl and test.pkl**. Each file is in dictiona
 
 **ing2label_topk500.pkl** contains the 500 most frequent ingredients in recipe1M, which is a dictionary with key as the original ingredient names and value as the corresponding ingredient label.
 
-**id2labels_train.pkl, id2labels_val.pkl and id2labels_test.pkl ** contains the ingredient labels of each recipe for train, test and valiation datasets, which is a dictionary of recipe id as key and ingredient label list as the value.
+**id2labels_train.pkl, id2labels_val.pkl and id2labels_test.pkl** contains the ingredient labels of each recipe for train, test and valiation datasets, which is a dictionary of recipe id as key and ingredient label list as the value.
 
 
 
