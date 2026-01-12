@@ -24,9 +24,7 @@ We use [HT](https://arxiv.org/pdf/2103.13061) as our baseline model. To train th
 python train_retrieval.py --dist-url tcp://127.0.0.1:6001 --cls_weight 0.0 --retrieval_weight 1.0 --batch-size 64 --dataname recipe1M --backbone resnet50 --epochs 100 --img_size 224 --aug_type ret
 ```
 
-You can find the training log in **"./logs/s1.out"**, and the checkpoint from [Google](https://drive.google.com/drive/folders/1AvlBZ8ibncF1BBCmSXezKV73Cvczi_7m?usp=drive_link) or [Baidu](通过网盘分享的文件：model_best.pth.tar
-链接: https://pan.baidu.com/s/1mQ08RqQntij9aBrFNDgjYQ?pwd=dggt 提取码: dggt 
---来自百度网盘超级会员v1的分享). 
+You can find the training log in **"./logs/s1.out"**, and the checkpoint from [Google](https://drive.google.com/drive/folders/1AvlBZ8ibncF1BBCmSXezKV73Cvczi_7m?usp=drive_link) or [Baidu](https://pan.baidu.com/s/1mQ08RqQntij9aBrFNDgjYQ?pwd=dggt). 
 
 ## Create the ingredient dictionary
 
